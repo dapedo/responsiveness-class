@@ -1,0 +1,14 @@
+.Navigation{
+    display: grid;
+    grid-template-columns: 4rem 5rem 5rem 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.Navigation span{
+    color: rgb(214, 8, 8);
+    word-spacing: 5rem;
+    font-weight: bold;
+}
+.Navigation p{
+    word-spacing: 5rem;
+}
