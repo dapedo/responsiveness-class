@@ -3,6 +3,8 @@ import Navigation from './components/Navigation';
 import Pagination from './components/Pagination';
 import Profile from './components/Profile';
 import Search from './components/Search';
+import Pokemon from './components/pokemon';
+
 function App() {
   return(
     <div>
@@ -10,6 +12,7 @@ function App() {
       <Profile/>
       <Navigation/>
       <Search/>
+      <Pokemon/>
       <Pagination/>
     </div>
   )
