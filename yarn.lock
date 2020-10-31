@@ -3624,6 +3624,82 @@ babel-plugin-minify-simplify@^0.5.1:
     babel-helper-is-nodes-equiv "^0.0.1"
     babel-helper-to-multiple-sequence-expressions "^0.5.0"
 
+babel-plugin-macros@2.8.0, babel-plugin-macros@^2.0.0, babel-plugin-macros@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-macros/-/babel-plugin-macros-2.8.0.tgz#0f958a7cc6556b1e65344465d99111a1e5e10138"
+  integrity sha512-SEP5kJpfGYqYKpBrj5XU3ahw5p5GOHJ0U5ssOSQ/WBVdwkD2Dzlce95exQTs3jOVWPPKLBN2rlEWkCK7dSmLvg==
+  dependencies:
+    babel-helper-is-void-0 "^0.4.3"
+
+babel-plugin-minify-builtins@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-minify-builtins/-/babel-plugin-minify-builtins-0.5.0.tgz#31eb82ed1a0d0efdc31312f93b6e4741ce82c36b"
+  integrity sha512-wpqbN7Ov5hsNwGdzuzvFcjgRlzbIeVv1gMIlICbPj0xkexnfoIDe7q+AZHMkQmAE/F9R5jkrB6TLfTegImlXag==
+
+babel-plugin-minify-constant-folding@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-minify-constant-folding/-/babel-plugin-minify-constant-folding-0.5.0.tgz#f84bc8dbf6a561e5e350ff95ae216b0ad5515b6e"
+  integrity sha512-Vj97CTn/lE9hR1D+jKUeHfNy+m1baNiJ1wJvoGyOBUx7F7kJqDZxr9nCHjO/Ad+irbR3HzR6jABpSSA29QsrXQ==
+  dependencies:
+    babel-helper-evaluate-path "^0.5.0"
+
+babel-plugin-minify-dead-code-elimination@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-minify-dead-code-elimination/-/babel-plugin-minify-dead-code-elimination-0.5.1.tgz#1a0c68e44be30de4976ca69ffc535e08be13683f"
+  integrity sha512-x8OJOZIrRmQBcSqxBcLbMIK8uPmTvNWPXH2bh5MDCW1latEqYiRMuUkPImKcfpo59pTUB2FT7HfcgtG8ZlR5Qg==
+  dependencies:
+    babel-helper-evaluate-path "^0.5.0"
+    babel-helper-mark-eval-scopes "^0.4.3"
+    babel-helper-remove-or-void "^0.4.3"
+    lodash "^4.17.11"
+
+babel-plugin-minify-flip-comparisons@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-minify-flip-comparisons/-/babel-plugin-minify-flip-comparisons-0.4.3.tgz#00ca870cb8f13b45c038b3c1ebc0f227293c965a"
+  integrity sha1-AMqHDLjxO0XAOLPB68DyJyk8llo=
+  dependencies:
+    babel-helper-is-void-0 "^0.4.3"
+
+babel-plugin-minify-guarded-expressions@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/babel-plugin-minify-guarded-expressions/-/babel-plugin-minify-guarded-expressions-0.4.4.tgz#818960f64cc08aee9d6c75bec6da974c4d621135"
+  integrity sha512-RMv0tM72YuPPfLT9QLr3ix9nwUIq+sHT6z8Iu3sLbqldzC1Dls8DPCywzUIzkTx9Zh1hWX4q/m9BPoPed9GOfA==
+  dependencies:
+    babel-helper-evaluate-path "^0.5.0"
+    babel-helper-flip-expressions "^0.4.3"
+
+babel-plugin-minify-infinity@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-minify-infinity/-/babel-plugin-minify-infinity-0.4.3.tgz#dfb876a1b08a06576384ef3f92e653ba607b39ca"
+  integrity sha1-37h2obCKBldjhO8/kuZTumB7Oco=
+
+babel-plugin-minify-mangle-names@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-minify-mangle-names/-/babel-plugin-minify-mangle-names-0.5.0.tgz#bcddb507c91d2c99e138bd6b17a19c3c271e3fd3"
+  integrity sha512-3jdNv6hCAw6fsX1p2wBGPfWuK69sfOjfd3zjUXkbq8McbohWy23tpXfy5RnToYWggvqzuMOwlId1PhyHOfgnGw==
+  dependencies:
+    babel-helper-mark-eval-scopes "^0.4.3"
+
+babel-plugin-minify-numeric-literals@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-minify-numeric-literals/-/babel-plugin-minify-numeric-literals-0.4.3.tgz#8e4fd561c79f7801286ff60e8c5fd9deee93c0bc"
+  integrity sha1-jk/VYcefeAEob/YOjF/Z3u6TwLw=
+
+babel-plugin-minify-replace@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-minify-replace/-/babel-plugin-minify-replace-0.5.0.tgz#d3e2c9946c9096c070efc96761ce288ec5c3f71c"
+  integrity sha512-aXZiaqWDNUbyNNNpWs/8NyST+oU7QTpK7J9zFEFSA0eOmtUNMU3fczlTTTlnCxHmq/jYNFEmkkSG3DDBtW3Y4Q==
+
+babel-plugin-minify-simplify@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-minify-simplify/-/babel-plugin-minify-simplify-0.5.1.tgz#f21613c8b95af3450a2ca71502fdbd91793c8d6a"
+  integrity sha512-OSYDSnoCxP2cYDMk9gxNAed6uJDiDz65zgL6h8d3tm8qXIagWGMLWhqysT6DY3Vs7Fgq7YUDcjOomhVUb+xX6A==
+  dependencies:
+    babel-helper-evaluate-path "^0.5.0"
+    babel-helper-flip-expressions "^0.4.3"
+    babel-helper-is-nodes-equiv "^0.0.1"
+    babel-helper-to-multiple-sequence-expressions "^0.5.0"
+
 babel-plugin-minify-type-constructors@^0.4.3:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/babel-plugin-minify-type-constructors/-/babel-plugin-minify-type-constructors-0.4.3.tgz#1bc6f15b87f7ab1085d42b330b717657a2156500"
@@ -6868,6 +6944,28 @@ getpass@^0.1.1:
   integrity sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
   dependencies:
     assert-plus "^1.0.0"
+
+github-slugger@^1.0.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/github-slugger/-/github-slugger-1.3.0.tgz#9bd0a95c5efdfc46005e82a906ef8e2a059124c9"
+  integrity sha512-gwJScWVNhFYSRDvURk/8yhcFBee6aFjye2a7Lhb2bUyRulpIoek9p0I9Kt7PT67d/nUlZbFu8L9RLiA0woQN8Q==
+  dependencies:
+    emoji-regex ">=6.0.0 <=6.1.1"
+
+glob-base@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/glob-base/-/glob-base-0.3.0.tgz#dbb164f6221b1c0b1ccf82aea328b497df0ea3c4"
+  integrity sha1-27Fk9iIbHAscz4Kuoyi0l98Oo8Q=
+  dependencies:
+    glob-parent "^2.0.0"
+    is-glob "^2.0.0"
+
+glob-parent@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-2.0.0.tgz#81383d72db054fcccf5336daa902f182f6edbb28"
+  integrity sha1-gTg9ctsFT8zPUzbaqQLxgvbtuyg=
+  dependencies:
+    is-glob "^2.0.0"
 
 github-slugger@^1.0.0:
   version "1.3.0"
