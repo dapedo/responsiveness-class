@@ -1,5 +1,6 @@
+import Pokemon from './components/pokemon'
 function App() {
-  return <h1>Hello World!</h1>
+  return <Pokemon></Pokemon>
 }
 
 export default App
