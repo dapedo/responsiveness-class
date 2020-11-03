@@ -1,4 +1,5 @@
 import PokeImage from '../../assets/bulbassauro.svg'
+import { FiStar } from 'react-icons/fi'
 import './styles.css'
 
 function Pokemon() {
@@ -21,6 +22,7 @@ function Pokemon() {
             <span className="type">POISON</span>
           </div>
         </div>
+        <FiStar size="20" />
       </div>
     </div>
   )
