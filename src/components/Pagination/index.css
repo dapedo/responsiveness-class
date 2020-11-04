@@ -1,19 +1,22 @@
-.Pagination{
-    display: grid;
-    grid-template-columns: 3rem 2rem 2rem 4rem;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
+.Pagination {
+  display: grid;
+  grid-template-columns: 3rem 2rem 2rem 4rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.Pagination p {
+  color: #d22126;
 }
 
-.Pagination span{
-    display: flex;
-    background-color: rgb(241, 28, 28);
-    font-weight: bold;
-    color: white;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    align-items: center;
-    justify-content: center;
+.Pagination span {
+  display: flex;
+  background-color: #d22126;
+  font-weight: bold;
+  color: white;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
 }

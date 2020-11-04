@@ -16,16 +16,25 @@
 }
 
 .pokemon-card .info {
+  position: relative;
   display: flex;
   flex: 1;
   flex-direction: column;
   align-items: flex-start;
   width: 12rem;
 }
+
+.pokemon-card .info svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .pokemon-card .info h3 {
   margin: 0;
   margin-bottom: 5px;
   font-size: 20px;
+  font-weight: 500;
 }
 
 .types {

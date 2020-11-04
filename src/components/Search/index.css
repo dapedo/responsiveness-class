@@ -1,20 +1,27 @@
-.Search{
-    display: flex;
-    border-bottom: 1px solid rgb(185, 172, 172);
-    width: 15rem;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 1px 0 rgba(163, 162, 162, 0.3);
+.Search {
+  display: flex;
+  border-bottom: 1px solid #000;
+  width: 15rem;
+  align-items: center;
+  justify-content: space-between;
 }
-.Search input{
-    border: none;
-    padding: 0.2rem 0;
-    font-size: 0.9rem;
+.Search .input-container {
+  position: relative;
+  width: 100%;
 }
 
-.Search input::placeholder{
-    color: rgb(196, 193, 193);
+.Search input {
+  border: none;
+  padding: 0.2rem 0;
+  font-size: 0.9rem;
+  width: 100%;
 }
-.Search HiOutlineSearch{
-    font-size: 2rem;
+
+.Search input::placeholder {
+  color: rgb(196, 193, 193);
+  font-size: 18px;
+}
+.Search svg {
+  position: absolute;
+  right: 0;
 }
