@@ -1,15 +1,17 @@
-import React from 'react';
-import './index.css';
+import React from 'react'
+import './index.css'
 
 const Navigation = () => {
-    return (
-        <div className='Navigation'>
-            <p> Equipe </p>
-            <span> Pokédex </span>
-            <p> Amigos </p>
-            <p> Hisrórico </p>
-        </div>
-    )
+  return (
+    <div className="Navigation">
+      <div className="options">
+        <p> Equipe </p>
+        <span> Pokédex </span>
+        <p> Amigos </p>
+        <p> Histórico </p>
+      </div>
+    </div>
+  )
 }
 
-export default Navigation;
+export default Navigation

@@ -1,10 +1,18 @@
-.Navigation{
-    display: grid;
-    grid-template-columns: 4rem 5rem 5rem 4rem;
-    align-items: center;
-    justify-content: center;
+.Navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.Navigation span{
-    color: rgb(241, 28, 28);
-    font-weight: bold;
+
+.Navigation .options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20rem;
+  font-size: 20px;
+}
+
+.Navigation span {
+  color: #d22126;
+  font-weight: bold;
 }

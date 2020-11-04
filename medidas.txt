@@ -1,0 +1,5 @@
+em -> de acordo com a fonte do elemento pai;
+rem -> de acordo com a fonte do elemento raíz;
+% -> não é uma unidade de medida, de acordo com o tamanho do pai;
+vw (viewport width) -> de acordo com a largura da viewport;
+vh (viewport height) -> de acordo com a altura da viewport;
